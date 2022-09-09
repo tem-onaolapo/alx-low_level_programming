@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
  *
- *  * main -Main block
+ * main -Main block
  *
- *   *
  *
- *    * Return: Always 0 (Success)
+ *
+ * Return: Always 0 (Success)
  *
  *     
  *
