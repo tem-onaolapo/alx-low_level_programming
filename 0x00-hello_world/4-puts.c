@@ -1,13 +1,13 @@
 #include <stdio.h>
-/**
+/*
  *
- * main -Main block
+ * main -main block
  *
  *
  *
- * Return: Always 0 (Success)
+ * Return: 0
  *
- *     
+ *
  *
  */
 int main(void)
