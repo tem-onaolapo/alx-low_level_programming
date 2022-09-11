@@ -24,7 +24,7 @@ int main(void)
 
 	{
 
-		for ( )
+		for ()
 		{
 			putchar((d / 10) + '0';
 			putchar((d % 10) + '0');
