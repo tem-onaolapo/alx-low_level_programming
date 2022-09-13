@@ -11,8 +11,8 @@ void print_alphabet_x10(void)
 {
 
 	int n, count;
-	co = 0;
-	while (co < 10)
+	count = 0;
+	while (count < 10)
 	{
 		for (n = 'a'; n <= 'z'; n++)
 
