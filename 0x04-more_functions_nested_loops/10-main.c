@@ -7,19 +7,9 @@
  */
 int main(void)
 {
-	int i, j;
-
-	if (size <= 0)
-		_putchar('\n');
-	for (i = 1; i <= size; i++)
-	{
-		for (j = 1; j <= size; j++;)
-		{
-			if (j <= (size -  i))
-				_putchar(' ');
-			else
-				_putchar('#');
-		}
-		_putchar('\n');
-	}
+	print_triangle(2);
+	print_triangle(10);
+	print_triangle(1);
+	print_triangle(0);
+	return (0);
 }
