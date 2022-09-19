@@ -29,6 +29,6 @@ int _atoi(char *s)
 	}
 	if (p < 0)
 		h *= -1;
-	
+
 	return (h);
 }
