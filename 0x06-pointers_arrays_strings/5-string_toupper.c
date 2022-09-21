@@ -2,17 +2,22 @@
 
 /**
  * string_toupper - a function that changes all lower of a string to upper
- * @n: input string
+ * @p: input string
  * Return: capitalized string
  */
-char *string_toupper(char *n)
+char *string_toupper(char *p)
 {
-	int i;
+	int a = 0;
 
-	for (i = 0; n[i] != '\0'; i++)
+	while (p[a])
 	{
-		if (n[i] <= 'a' && n[i] <= 'z')
-			n[i] = n[i] - 32;
+		if (p[a] >= 97 && p[a] <= 122)
+		{
+			p[a] -= 32;
+		}
+
+		a++;
 	}
-	return (n);
+
+	return (p);
 }
