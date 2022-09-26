@@ -3,7 +3,7 @@
 /**
  * _memcpy - Entry point
  * @dest: input
- * @srcc: input
+ * @src: input
  * @n: input
  * Return: Always 0 (Success)
  */
