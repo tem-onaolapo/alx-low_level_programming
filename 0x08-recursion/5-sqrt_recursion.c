@@ -10,7 +10,7 @@
  */
 int sqrt2(int a, int b)
 {
-	if (b * b == a )
+	if (b * b == a)
 		return (b);
 	else if (b * b < a)
 		return (-1);
@@ -25,7 +25,7 @@ int sqrt2(int a, int b)
  * On error, -1 is returned, and error is set appropriately
  */
 
- int _sqrt_recursion(int n)
- {
+int _sqrt_recursion(int n)
+{
 	return (sqrt2(n, 1));
- }
+}
