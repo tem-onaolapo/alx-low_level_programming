@@ -1,5 +1,5 @@
-#ifndef MAIN.h
-#define MAIN.h
+#ifndef MAIN_h
+#define MAIN_h
 
 int _puchar(char c);
 
