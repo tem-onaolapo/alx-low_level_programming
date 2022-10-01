@@ -3,19 +3,21 @@
 #include "main.h"
 
 /**
- * main - Program that takes firsst two integer arguments and prints the product
+ * main - Entry point
+ *
  * @argc: Number of command line argumets
  * @argv: Array name
+ * Return: Always 0 (Success)
  */
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i, j;
 
 	if (argc == 1 || argc == 2)
 	{
 		printf("Error\n");
-		return(1);
+		return (1);
 	}
 	else
 	{
