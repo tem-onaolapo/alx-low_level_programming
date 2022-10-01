@@ -27,11 +27,11 @@ int main(int argc, char *argv[])
 			ptr = argv[i];
 			length = strlen(ptr);
 
-			for ( j = 0; j < length; j++)
+			for (j = 0; j < length; j++)
 			{
 				if (isdigit(*(ptr + j)) == 0)
 				{
-					print("Error\n");
+					printf("Error\n");
 					return (1);
 				}
 			}
