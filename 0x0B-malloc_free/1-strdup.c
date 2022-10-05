@@ -20,12 +20,12 @@ char *_strup(char *str)
 	}
 
 	end += 1;
-	array = maloc(sizeof(char) *end)
+	array = malloc(sizeof(char) * end);
 
-	for (i = 0; i < end; i++);
-		array[i] = str[i]
+	for (i = 0; i < end; i++)
+		array[i] = str[i];
 
-	if (array ==NULL)
+	if (array == NULL)
 		return (NULL);
-	RETURN (araya);
+	return (array);
 }
