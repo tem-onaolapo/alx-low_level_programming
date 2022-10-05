@@ -7,7 +7,7 @@
  * str: char
  * Return: 0
  */
-char *_strup(char *str)
+char *_strdup(char *str)
 {
 	int i, end;
 	char *array;
