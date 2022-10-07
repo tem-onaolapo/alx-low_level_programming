@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * array_range - Create array of integers 
+ * array_range - Create array of integers
  * @min: First number in the array
  * @max: Largest number in the array
  *
@@ -16,12 +16,12 @@ int *array_range(int min, int max)
 	if (min > max)
 		return (NULL);
 	size = max - min;
-	ar = malloc((size + 1) * size of(int));
+	ar = malloc((size + 1) * sizeof(int));
 	i = 0;
 	n = min;
 	while (n <= max)
 	{
-		a[i] = n;
+		ar[i] = n;
 		i++;
 		n++;
 	}
