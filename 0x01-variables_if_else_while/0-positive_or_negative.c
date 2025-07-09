@@ -1,9 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/*
+* main - Assigns a random number to n
+* the if statement prints if the value is -,+ or 0
+* Return: ALways 0 (Successful)
+*/
 int main(void)
 {
 	int n;
