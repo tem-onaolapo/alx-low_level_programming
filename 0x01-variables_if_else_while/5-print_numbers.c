@@ -9,6 +9,7 @@
 int main(void)
 {
 	short int n = 0;
+
 	while (n <= 9)
 	{
 		printf("%d", n);
