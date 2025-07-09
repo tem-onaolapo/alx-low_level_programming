@@ -12,7 +12,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/**
 	* main - Assigns a random number to n
-	* the if statement checks if the number is negative, positive or zero and prints it
+	* the if statement prints if the value is -,+ or 0
 	* Return: ALways 0 (Successful)
 	*/
 	if (n > 0)
